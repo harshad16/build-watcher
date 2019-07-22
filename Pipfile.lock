@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "72fc080953db85aa15fda3956fde3c5c35cc91d90643a80990942d53c27fbd20"
+            "sha256": "ffa62451874ec8174f83e233d784e21237bdeadc13d6946df36f3bca1fe64851"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -99,13 +99,6 @@
             "index": "pypi",
             "version": "==7.0"
         },
-        "contoml": {
-            "hashes": [
-                "sha256:2353275caef3726131c4192379252cc48eb4a15c06df3e1046f783de937eba94",
-                "sha256:f62960b57a9489187653787bd67756d15a79e4579c7d779d8b94f581dd260a7d"
-            ],
-            "version": "==0.32"
-        },
         "cryptography": {
             "hashes": [
                 "sha256:24b61e5fcb506424d3ec4e18bca995833839bf13c59fc43e530e488f28d46b8c",
@@ -168,21 +161,6 @@
                 "sha256:ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"
             ],
             "version": "==2.8"
-        },
-        "invectio": {
-            "hashes": [
-                "sha256:185b0cdcdb96e122835be1a6bb0ec27afb949ae191eec2587c04d57c952c8bfc",
-                "sha256:72f9377759ed62f816621a8e060c1b7f19f02bddb5afea86b75cb4123ad1791e"
-            ],
-            "version": "==0.0.4"
-        },
-        "iso8601": {
-            "hashes": [
-                "sha256:210e0134677cc0d02f6028087fee1df1e1d76d372ee1db0bf30bf66c5c1c89a3",
-                "sha256:49c4b20e1f38aa5cf109ddcd39647ac419f928512c869dc01d5c7098eddede82",
-                "sha256:bbbae5fb4a7abfe71d4688fd64bff70b91bbd74ef6a99d964bab18f7fdf286dd"
-            ],
-            "version": "==0.1.12"
         },
         "jinja2": {
             "hashes": [
@@ -250,6 +228,13 @@
                 "sha256:9e2c1fd0e6ee3a49b28f95d4b33bc389c89b20af6a1255906e90ff1262ce62eb"
             ],
             "version": "==4.7.0"
+        },
+        "prometheus-client": {
+            "hashes": [
+                "sha256:71cd24a2b3eb335cb800c7159f423df1bd4dcd5171b234be15e3f31ec9f622da"
+            ],
+            "index": "pypi",
+            "version": "==0.7.1"
         },
         "ptyprocess": {
             "hashes": [
@@ -387,31 +372,9 @@
             ],
             "version": "==1.12.0"
         },
-        "strict-rfc3339": {
-            "hashes": [
-                "sha256:5cad17bedfc3af57b399db0fed32771f18fc54bbd917e85546088607ac5e1277"
-            ],
-            "version": "==0.7"
-        },
-        "termcolor": {
-            "hashes": [
-                "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"
-            ],
-            "version": "==1.1.0"
-        },
-        "texttable": {
-            "hashes": [
-                "sha256:eff3703781fbc7750125f50e10f001195174f13825a92a45e9403037d539b4f4"
-            ],
-            "version": "==1.6.2"
-        },
         "thamos": {
-            "hashes": [
-                "sha256:0de97f14b71056db77d016e485c70b341ad02f8e4b38b6681b59b09ebd6edb49",
-                "sha256:1a7522231e1a2cc7db32c7cf2513ffb42b7dafdacad8c825b3c096bf5eb192f0"
-            ],
-            "index": "pypi",
-            "version": "==0.5.5"
+            "git": "https://github.com/harshad16/thamos.git",
+            "ref": "d57f5b64ee645c723941efa336384bd053bd2325"
         },
         "thoth-analyzer": {
             "hashes": [
@@ -421,18 +384,15 @@
             "version": "==0.1.2"
         },
         "thoth-common": {
+            "extras": [
+                "openshift"
+            ],
             "hashes": [
                 "sha256:0b3d166c7cfe5feb0438667a88c06f4d80ad7e5c1f5c7b79b11dc6f0127bc48c",
                 "sha256:b1b0e37ac8a70dcb30238aeea966f26609f463f4e7164cef241addd477b9f735"
             ],
             "index": "pypi",
             "version": "==0.9.4"
-        },
-        "timestamp": {
-            "hashes": [
-                "sha256:b5c7a4539f0d8742b7d6c78febd241ab24903c73c38045690725220ca7eae4ac"
-            ],
-            "version": "==0.0.1"
         },
         "tzlocal": {
             "hashes": [
@@ -453,13 +413,6 @@
                 "sha256:1fd5520878b68b84b5748bb30e592b10d0a91529d5383f74f4964e72b297fd3a"
             ],
             "version": "==0.56.0"
-        },
-        "yaspin": {
-            "hashes": [
-                "sha256:8e6d2e2b207ba18510f190e04a25273a32d1f192af9c9a77ebe46deaca799dfa",
-                "sha256:94b7602f0dc59d26a15e63cefff6aaf644c58dd77fc4e1ef675d3ba2c302ed06"
-            ],
-            "version": "==0.14.3"
         }
     },
     "develop": {}

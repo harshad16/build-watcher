@@ -9,7 +9,8 @@ verify_ssl = true
 thoth-common = {extras = ["openshift"],version = "*"}
 click = "*"
 pyyaml = "*"
-thamos = "*"
+prometheus-client = "*"
+thamos = {git = "https://github.com/harshad16/thamos.git",ref = "test"}
 thoth-analyzer = "*"
 
 [requires]
